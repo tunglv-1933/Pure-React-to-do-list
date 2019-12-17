@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style: none;
+  text-align: left
+}
+
+li:hover {
+  cursor: pointer;
+  user-select: none;
+}
+
+.to-do {
+  color: red;
+}
+
+.done {
+  color: green;
+  text-decoration: line-through;
+  font-style: italic;
+}
